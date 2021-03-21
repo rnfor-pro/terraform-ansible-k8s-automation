@@ -37,7 +37,7 @@ $ source ~/.bashrc
 #### Clone terraform and ansible scripts
 ``` sh
 $ git clone https://github.com/LandmakTechnology/Terraform-Ansible-k8s-Automation.git
-$ cd Kuberentes_Cluster_Terraform_Ansible
+
 ```
 ###### <span style="color:orange"> Update Your Key Name in variables.tf file before executing terraform script </span>
 
@@ -45,7 +45,9 @@ $ cd Kuberentes_Cluster_Terraform_Ansible
 ##### Create the intrstructure (VPC, Subnets, Route Tables, IGW, EC2 Instances, etc)
 ``` sh
 # Initialise to install plugins
-$ terraform init terafrom_scripts/
+$terraform init Terraform-Ansible-k8s-Automation/terafrom_scripts
+# OR 
+#$ terraform init terafrom_scripts/
 # Validate teffaform scripts
 $ terraform validate terafrom_scripts/
 # Plan terraform scripts which will list resouce which will be created
