@@ -68,6 +68,7 @@ $ chmod +x DynamicInventory.py
 ##Create config file in current user .aws folder And below content.
 $ mkdir ~/.aws
 $ vi ~/.aws/config
+# Add 
 [default]
 region=ca-central-1
 $ chmod +x DynamicInventory.py
