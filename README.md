@@ -49,10 +49,16 @@ $terraform init Terraform-Ansible-k8s-Automation/terafrom_scripts
 # OR 
 #$ terraform init terafrom_scripts/
 # Validate teffaform scripts
+$terraform validate Terraform-Ansible-k8s-Automation/terafrom_scripts
+# OR
 $ terraform validate terafrom_scripts/
 # Plan terraform scripts which will list resouce which will be created
+$ terraform plan Terraform-Ansible-k8s-Automation/terafrom_scripts
+# OR
 $ terraform plan terafrom_scripts/
 # Apply to create resources
+$ terraform apply --auto-approve  Terraform-Ansible-k8s-Automation/terafrom_scripts
+# OR
 $ terraform apply --auto-approve terafrom_scripts/
 ```
 ## Configuration Management Using Ansible with Dynamic Inventory
