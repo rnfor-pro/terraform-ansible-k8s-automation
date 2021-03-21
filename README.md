@@ -74,6 +74,8 @@ region=ca-central-1
 $ ./DynamicInventory.py
 # Ansible command to setup k8s cluste using DynamicInventory.
 # copy your the <KeyPem> from the region terraform is going to provision your infrastructure into your ansible home directory
+# create an ssh key
+$ ssh-keygen
 
 ###### <span style="color:red">Replace \<Pemfile> with your pemfile path in server </span>
 ```sh
