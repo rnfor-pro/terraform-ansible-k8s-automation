@@ -71,8 +71,6 @@ $ vi ~/.aws/config
 # Add 
 [default]
 region=ca-central-1
-$ chmod +x DynamicInventory.py
-
 $ ./DynamicInventory.py
 # Ansible command to setup k8s cluste using DynamicInventory.
 # copy your the <KeyPem> from the region terraform is going to provision your infrastructure into your ansible home directory
