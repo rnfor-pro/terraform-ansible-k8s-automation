@@ -83,5 +83,7 @@ $ ansible-playbook -i DynamicInventory.py site.yml -u ubuntu --private-key=<PemF
 ```
 ##  Destroy Infrastructure  
 ```sh
+$ terraform destroy --auto-approve  Terraform-Ansible-k8s-Automation/terafrom_scripts
+# OR
 $ terraform destroy --auto-approve terafrom_scripts/
 ```
